@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/wang-vue-ui.svg)](https://badge.fury.io/js/wang-vue-ui)
+
 ## wang-ui
 
 ## QuickStart
