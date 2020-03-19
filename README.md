@@ -10,7 +10,7 @@ npm install wang-ui
 
 ## usage
 ```
-import wangUi from 'wang-ui'
+import wangUi from 'wang-vue-ui'
 import 'wang-ui/dist/wang-ui.css'
 Vue.use(wangUi)
 ```
