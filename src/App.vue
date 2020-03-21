@@ -11,9 +11,9 @@
     <wang-button type="info">信息按钮</wang-button>
     <br>
     <!-- 带icon的按钮 -->
-    <wang-button type="info" icon="sousuo">信息按钮</wang-button>
-    <wang-button type="primary" icon="sousuo"></wang-button>
-    <wang-button type="success" icon="sousuo" icon-position="right">内容</wang-button>
+    <wang-button type="info" icon="search">信息按钮</wang-button>
+    <wang-button type="primary" icon="search"></wang-button>
+    <wang-button type="success" icon="search" icon-position="right">内容</wang-button>
     <br>
     <!-- loading按钮 -->
     <wang-button type="success" loading>加载中</wang-button>
@@ -27,9 +27,24 @@
       <wang-button  icon="right" icon-position="right">下一页</wang-button>
     </wang-button-group>
 
-    <wang-icon icon="sousuo"></wang-icon>
+    <wang-icon icon="search"></wang-icon>
     <wang-icon icon="edit"></wang-icon>
     <br>
+
+    <br>
+    <wang-row>
+      <wang-col :span="12" class="red">5666</wang-col>
+      <wang-col :span="12" class="green">6666</wang-col>
+    </wang-row>
+
+    <wang-row>
+      <wang-col :span="6" class="red">5666</wang-col>
+      <wang-col :span="12" class="green" :offset="6">6666</wang-col>
+    </wang-row>
+    <wang-row :gutter="20">
+      <wang-col :span="12" class="red">5666</wang-col>
+      <wang-col :span="12" class="green">6666</wang-col>
+    </wang-row>
   </div>
 </template>
 
@@ -43,3 +58,11 @@ export default {
   }
 }
 </script>
+<style lang="scss">
+.red {
+  background: red;
+}
+.green {
+  background: green;
+}
+</style>
